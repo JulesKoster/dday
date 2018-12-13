@@ -17,7 +17,7 @@
 <body>
 
 <nav class="navbar fixed-top navbar-expand-md navbar-dark" style="background-color: #525B56;">
-        <a class="navbar-brand" href="#">Logo</a>
+        <a class="navbar-brand" href="#"></a>
         <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
             aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation" style="background-color: #fff;"></button>
         <div class="collapse navbar-collapse" id="collapsibleNavId">
@@ -43,11 +43,7 @@
                         <a class="dropdown-item" href="harbor.php">Mulberry Harbor</a>
                     </div>
                 </li>
-            </ul>
-            <!-- <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="text" placeholder="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form> -->
+            </ul>           
         </div>
     </nav>
 <!-- Optional JavaScript -->

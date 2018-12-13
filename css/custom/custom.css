@@ -1,3 +1,7 @@
+#body-color {
+background-color: #A6988E;
+}
+
 
 .jumbotron {
     background-image: url("../../img/arromanches_commemoration_dday.jpg");
@@ -7,6 +11,16 @@
 }
 
 .fontawesome {
-    font-size:40px;
-    color:#f1f1f1;
+    font-size:30px;
+    color:#000000;
+}
+
+#border {
+    border: 2px solid #BF9064;
+
+}
+#fluid-color {
+    background-color: #A6988E;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }

@@ -18,9 +18,9 @@
 
 
 
-<footer class="navbar fixed-bottom navbar-light" style="background-color:#525B56; color:#fff">
-            
-            
+<footer class="navbar fixed-bottom navbar-light" style="background-color:#525B56;margin-top:50px">
+ 
+<!-- background-color:#525B56 -->
             <div class="container">
                     <!-- <img src="img/map_arromanches.jpg" class="img-fluid" alt=""> -->
                     
