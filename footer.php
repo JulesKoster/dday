@@ -28,9 +28,9 @@
                     <i class="fab fa-facebook-f fontawesome"></i>
                     <i class="fab fa-twitter fontawesome"></i>
                     <a class="navbar-brand" href="#"><i class="far fa-copyright" aria-hidden="true">Website by JFK Design</i></a>
-                    <img src="img/picto_normandy-quality-tourism.jpg" class="img-fluid" alt="">
-                    <img src="img/dday_h90.jpg" class="img-fluid" alt="">
-                    <img src="img/normandy_crest.jpg" class="img-fluid" alt="">
+                    <img src="img/picto_normandy-quality-tourismr.jpg" class="img-fluid" alt="">
+                    <img src="img/dday_h90r.jpg" class="img-fluid" alt="">
+                    <!-- <img src="img/normandy_crestr.jpg" class="img-fluid" alt=""> -->
             </div>
 </footer>
 <!-- Optional JavaScript -->

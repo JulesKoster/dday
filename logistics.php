@@ -2,16 +2,45 @@
 include 'nav.php';
 include 'footer.php';
 ?>
+<body id="body-color">
+<nav class="navbar fixed-top navbar-expand-md navbar-dark" style="background-color: #525B56;">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation" style="background-color: #fff;"></button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.php">About the Museum</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="info.php">Practical info</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="goodday.php">Is it a good day to visit?</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">D-Day Info</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                        <a class="dropdown-item" href="landings.php">The Landings</a>
+                        <a class="dropdown-item" href="logistics.php">The Logistics</a>
+                        <a class="dropdown-item" href="harbor.php">Mulberry Harbor</a>
+                    </div>
+                </li>
+            </ul>           
+        </div>
+    </nav>
 
 <div class="jumbotron jumbotron-fluid">
     <div class="container">                
         <h1 class="display-4">D-Day Museum Arromanches</h1>
         <p class="lead">Musee du Debarquement</p>
         <hr class="my-2">
-        <p>More info</p>
-        <p class="lead">
-            <a class="btn btn-primary btn-lg" href="Jumbo action link" role="button">Jumbo action name</a>
-        </p>
+        <p>Information about the logistics <br> and supplies</p>
+        
     </div>
 </div>
 
@@ -19,7 +48,7 @@ include 'footer.php';
 <div class="container-fluid" id="fluid-color">
     <div class="row justify content-between" style="margin-bottom:200px">
      <div class="col-xl-4 col-sm-6">
-        <img class="img-fluid" src="img/army_hill.jpg" alt="Generic placeholder image">
+        <img class="img-fluid" src="img/dday_square.jpg" alt="Generic placeholder image">
         <div class="caption">
         <h4>The Logistics</h4>          
         </div>  

@@ -24,11 +24,9 @@ include 'footer.php';
                 <h1 class="display-4">D-Day Museum Arromanches</h1>
                 <p class="lead">Musee du Debarquement</p>
                 <hr class="my-2">
-                <p>The climate of Normandy (France)
-                Normandy is one of the rougher areas of France. The desert coast with its chalk-cliffs battered by the waves can produce beautiful images. Also the D-day beaches know a rough history. Normandy knows a large difference in ebb- and high tide. In some places, for instance at St. Michel, it can be as much as 16 meters. The weather in Normandy is very much comparable to that in Holland, the temperature is somewhat higher and it rains just a little less often there. The winters are sometimes boisterous there but mostly mild and agreeable. The summers are agreeable, also because of the constant seabreeze, but can certainly not be called too warm, an excellent destination for an active holiday.
-                </p>
+                <hr class="my-2">
                 <p class="lead">
-                    <a class="btn btn-primary btn-lg" href="#current_weather"  role="button">Show me if it's a good day to visit!</a>
+                    <a class="btn btn-secondary btn-inv" href="#current_weather"  role="button">Show me if it's a good day to visit!</a>
                 </p>
             </div>
         </div>
@@ -45,7 +43,9 @@ include 'footer.php';
                 <h5 class="card-title">What is the current Weather in Arromanches </h5>
                 <h6 class="card-subtitle mb-2 text-muted">Part of the community Saint-Côme-de-Fresné</h6>
                 <p class="card-text">
-            
+                The climate of Normandy (France)
+                Normandy is one of the rougher areas of France. The desert coast with its chalk-cliffs battered by the waves can produce beautiful images. Also the D-day beaches know a rough history. Normandy knows a large difference in ebb- and high tide. In some places, for instance at St. Michel, it can be as much as 16 meters. The weather in Normandy is very much comparable to that in Holland, the temperature is somewhat higher and it rains just a little less often there. The winters are sometimes boisterous there but mostly mild and agreeable. The summers are agreeable, also because of the constant seabreeze, but can certainly not be called too warm, an excellent destination for an active holiday.
+                </p>
                     <?php
                 
                     
@@ -61,7 +61,7 @@ include 'footer.php';
                     echo '<h2>' . 'Weather condition: ' . $weatherObject -> weather[0] -> description . '</h2>';
                 ?>
                 
-                <a href="#" class="btn btn-primary">Go back to Top</a>
+                <a href="#" class="btn btn-secondary">Go back to Top</a>
             </div>
         </div>
             </div>

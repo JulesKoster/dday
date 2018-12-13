@@ -10,9 +10,10 @@ include 'footer.php';
         <h1 class="display-4">D-Day Museum Arromanches</h1>
         <p class="lead">Musee du Debarquement</p>
         <hr class="my-2">
-        <p>More info</p>
+        <p>Read more about D-Day, the day that started saving the rest of Europe!</p>
+        <hr class=my-2>
         <p class="lead">
-            <a class="btn btn-primary btn-lg" href="Jumbo action link" role="button">Jumbo action name</a>
+            
         </p>
     </div>
 </div>

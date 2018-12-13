@@ -34,7 +34,7 @@ include 'nav.php';
     </div>
 </div>
 
-<button type="button" class="btn btn-dark btn-lg" data-toggle="modal" data-target="#myModal" data-name="Museum">
+<button type="button" class="btn btn-dark btn-lg" data-toggle="modal" data-target="#myModal" data-name="name">
   Email Us
 </button>
 
