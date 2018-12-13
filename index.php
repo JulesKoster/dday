@@ -1,3 +1,9 @@
+<?php
+include 'nav.php';
+include 'footer.php';
+?>
+
+
 <!doctype html>
 <html lang="en">
 
@@ -47,7 +53,7 @@
                 The D-day Museum overlooks the very spot where one of the Mulberry Harbours was constructed and where its remains can still be seen today, just a few hundred metres from the shore.</p>
             </div>
             <div class="col-xl-4 col-sm-6">
-                <!-- <span class="border"> </span> -->
+                
                 <img class="img-fluid" src="img/arromanches-50eme-division-a-gold-beach.jpg" alt="Generic placeholder image">
                 <div class="caption">
                 <h4>Practical Info</h4>
@@ -65,12 +71,9 @@ E-Mail : info@arromanches-museum.fr <br>
                 <img src="/img/mobile_icon_mall.png" class="img-fluid" alt="">  
                 <img src="/img/food_drink_icon_small.png" class="img-fluid" alt="">     
                 <!-- fix this stuff later -->
-                </p>
-                              
-                  
-               
-            
+                </p>     
             </div>
+
             <div class="col-xl-4 col-sm-6">
                 <!-- <span class="border"> </span> -->
                 <img class="img-fluid" src="img/normandy_supply.jpg" alt="Generic placeholder image">
@@ -197,7 +200,7 @@ E-Mail : info@arromanches-museum.fr <br>
                     <img src="img/normandy_crest.jpg" class="img-fluid" alt="">
             </div>
         </footer>
-        <i class="far fa-copyright"></i>
+        
         
 
         <!-- #525B56; -->

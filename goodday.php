@@ -1,3 +1,8 @@
+<?php
+include 'nav.php';
+include 'footer.php';
+?>
+
 <!doctype html>
 <html lang="en">
 
@@ -13,43 +18,6 @@
     <link rel="stylesheet" href="css/custom/custom.css">
 </head>
 
-<nav class="navbar fixed-top navbar-expand-md navbar-dark" style="background-color: #040C0E;">
-        <a class="navbar-brand" href="#">Logo</a>
-        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
-            aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation" style="background-color: #fff;"></button>
-        <div class="collapse navbar-collapse" id="collapsibleNavId">
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About the Museum</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Practical info</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Is it a good day to visit?</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true"
-                        aria-expanded="false">D-Day Info</a>
-                    <div class="dropdown-menu" aria-labelledby="dropdownId">
-                        <a class="dropdown-item" href="#">The Landings</a>
-                        <a class="dropdown-item" href="#">The Logistics</a>
-                        <a class="dropdown-item" href="#">Mulberry Harbor</a>
-                    </div>
-                </li>
-            </ul>
-            <!-- <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="text" placeholder="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form> -->
-        </div>
-    </nav>
-
-    <div class="wrapper">
-
         <div class="jumbotron jumbotron-fluid">
             <div class="container">
                 <h1 class="display-4">D-Day Museum Arromanches</h1>
@@ -57,16 +25,16 @@
                 <hr class="my-2">
                 <p>The climate of Normandy (France)
 Normandy is one of the rougher areas of France. The desert coast with its chalk-cliffs battered by the waves can produce beautiful images. Also the D-day beaches know a rough history. Normandy knows a large difference in ebb- and high tide. In some places, for instance at St. Michel, it can be as much as 16 meters. The weather in Normandy is very much comparable to that in Holland, the temperature is somewhat higher and it rains just a little less often there. The winters are sometimes boisterous there but mostly mild and agreeable. The summers are agreeable, also because of the constant seabreeze, but can certainly not be called too warm, an excellent destination for an active holiday.
-
- </p>
+                </p>
                 <p class="lead">
-                    <a class="btn btn-primary btn-lg" href="Jumbo action link" role="button">Show me if it's a good day to visit!</a>
+                    <a class="btn btn-primary btn-lg" href="#current_weather"  role="button">Show me if it's a good day to visit!</a>
                 </p>
             </div>
         </div>
 
     </div>
-<div class="container">
+
+<div class="container" id="current_weather">
     <div class="card" style="width: 50rem;">
   <img class="card-img-top" src="img/arromanches_bay.jpg" alt="Card image cap">
   <div class="card-body">
@@ -77,16 +45,17 @@ Normandy is one of the rougher areas of France. The desert coast with its chalk-
     <?php
   
     
-    $url = "http://api.openweathermap.org/data/2.5/weather?id=2981028&appid=bcc4494fab8d013bf08572bf17c0b460&units=metric";  
+    $url = "http://api.openweathermap.org/data/2.5/weather?id=2981028&appid=6fdffba214c3c38f07ba3454f2b27f65&units=metric";  
     $json = file_get_contents($url);
     
     $weatherObject = json_decode($json);  
 
     
-
+    
     echo '<h1>' . $weatherObject -> name . '</h1>';
-    echo '<h2>' . $weatherObject -> main -> temp . '</h2>';
-    echo '<h3>' . $weatherObject -> weather[0] -> description . '</h3>';
+    echo '<h2>' . $weatherObject -> main -> temp . ' &#8451' . '</h2>';
+    echo '<h3>' . 'Weather condition: ' . $weatherObject -> weather[0] -> description . '</h3>';
+   
 ?>
         
     
@@ -97,14 +66,6 @@ Normandy is one of the rougher areas of France. The desert coast with its chalk-
 </div>
 </div>
 
-
-
-
-
-
-
-
-
     <div class="container-fluid">
         <div class="row">
             <div class="col-xl-4 col-sm-6">
@@ -112,11 +73,14 @@ Normandy is one of the rougher areas of France. The desert coast with its chalk-
                 <img class="img-fluid" src="img/normandy_supply.jpg" alt="Generic placeholder image">
                 <div class="caption">
                 <h4>About The Museum</h4>
-
-                </div> On the initiative of Raymond TRIBOULET, France's first sub-prefect after the Liberation » the permanent exhibition on the Normandy Landings was officially opened on June 5th 1954 in Arromanches by Monsieur René COTY, the then President of the French Republic.
+                
+                </div>
+                <section class="about">
+                <> On the initiative of Raymond TRIBOULET, France's first sub-prefect after the Liberation » the permanent exhibition on the Normandy Landings was officially opened on June 5th 1954 in Arromanches by Monsieur René COTY, the then President of the French Republic.
                 It was the first museum to be built in commemoration of June 6th 1944 and the Normandy Campaign.
                 The D-day Museum overlooks the very spot where one of the Mulberry Harbours was constructed and where its remains can still be seen today, just a few hundred metres from the shore.</p>
-            </div>
+                </section>
+                </div>
             <div class="col-xl-4 col-sm-6">
                 <!-- <span class="border"> </span> -->
                 <img class="img-fluid" src="img/normandy_supply.jpg" alt="Generic placeholder image">
@@ -167,9 +131,7 @@ E-Mail : info@arromanches-museum.fr <br>
 
         </div>
 
-        <nav class="navbar fixed-bottom navbar-light bg-light">
-            <a class="navbar-brand" href="#">Fixed bottom</a>
-        </nav>
+      
 
 
         <!-- Optional JavaScript -->
