@@ -1,0 +1,12 @@
+
+.jumbotron {
+    background-image: url("../../img/arromanches_commemoration_dday.jpg");
+    /* background-color:green; */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.fontawesome {
+    font-size:40px;
+    color:#f1f1f1;
+}
