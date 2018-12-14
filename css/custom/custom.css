@@ -17,6 +17,7 @@ background-color: #A6988E;
 
 #border {
     border: 2px solid #BF9064;
+    padding: 10px;
 
 }
 #fluid-color {
@@ -24,3 +25,8 @@ background-color: #A6988E;
     margin-top: 100px;
     margin-bottom: 100px;
 }
+
+.img-fluid:hover {
+    opacity:0.7;
+}
+

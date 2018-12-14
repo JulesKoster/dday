@@ -8,7 +8,7 @@ include 'nav.php';
 <html lang="en">
 
 <head>
-    <title>Title</title>
+    <title>D-Day Musuem</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -98,8 +98,8 @@ include 'nav.php';
                   <blockquote class="blockquote mb-0">
                     <img class="rounded float-left" src="img/winston_smoking.jpg" alt="Winston Churchill"> 
                     <p>I have to announce to the House that the first series of landings in force upon the European continent has taken place... The fire of shore batteries has been largery quelled. Everything is proceeding according to plan. </p>
-                    <footer class="blockquote-footer">Winston Churchill speaking to <cite title="Source Title">House of Commons, June 6th, 1944</cite></footer>
-                  </blockquote>                  
+                    <footer class="blockquote-footer"><cite title="Source Title">House of Commons, June 6th, 1944</cite></footer>
+                  </blockquote>                                    
                 </div>
               
         </div>    
@@ -165,6 +165,12 @@ include 'nav.php';
             crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
             crossorigin="anonymous"></script>
+        <script type="text/javascript">
+        $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+        })
+        </script>
+
 </body>
 
 </html>

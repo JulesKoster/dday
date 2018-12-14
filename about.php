@@ -8,7 +8,7 @@ include 'nav.php';
 <html lang="en">
 
 <head>
-    <title>Title</title>
+    
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -49,7 +49,7 @@ include 'nav.php';
         <h4 class="modal-title" id="myModalLabel">Send us an email</h4>
       </div>
       <div class="modal-body">
-      <form>
+      <form
           <div class="form-group">
             <label for="recipient-name" class="col-form-label">Recipient:</label>
             <input type="text" class="form-control" id="recipient-name">
@@ -62,7 +62,7 @@ include 'nav.php';
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Send E-mail</button>
+        <button type="button" class="btn btn-danger">Send E-mail</button>
       </div>
     </div>
   </div>
@@ -95,7 +95,6 @@ include 'nav.php';
             crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
             crossorigin="anonymous"></script>
-        <script>
         <script type="text/javascript">
       
           $('#myModal').on('show.bs.modal', function (event) {
@@ -107,9 +106,11 @@ include 'nav.php';
           
           $("#myModal").on("hidden.bs.modal", function (event) {
               
-              alert("Modal closed!")
+              alert("Thanks for your message!")
               
           })
+        
+          
         </script>
 
 </body>       
