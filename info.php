@@ -32,15 +32,8 @@ include 'footer.php';
                 </p>
             </div>
 </div>
-            
-<a tabindex="0" class="btn btn-secondary" role="button" data-trigger="focus" data-container="body" data-toggle="popover" data-placement="right" data-content="Individuals Tariffs
-Adults 8.00 €
-Children, Students 5.90 €
-Groups tariffs (20 or more people)
-Adults 6.50 € 
-Children, Students 4.00 € .">
-                Entry prices
-             </a>
+
+
 
 
         <div class="container-fluid" id="fluid-color">        
@@ -60,7 +53,18 @@ Children, Students 4.00 € .">
                 Fax number : +33 (0)2 31 92 68 83 <br>
                 Museum shop tel. : +33 (0)2 31 51 68 11 <br>
                 E-Mail : info@arromanches-museum.fr <br>
-                </p>                               
+                </p>      
+                <div class="row justify-content-center"> 
+        
+<a tabindex="0" class="btn btn-secondary" role="button" data-trigger="focus" data-container="body" data-toggle="popover" data-placement="right" data-content="Individuals Tariffs
+Adults 8.00 €
+Children, Students 5.90 €
+Groups tariffs (20 or more people)
+Adults 6.50 € 
+Children, Students 4.00 € .">
+                Entry prices
+             </a>
+</div>                                      
                 </div>   
 
                 

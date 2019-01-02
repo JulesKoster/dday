@@ -8,7 +8,15 @@ background-color: #A6988E;
     /* background-color:green; */
     background-size: cover;
     background-repeat: no-repeat;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: #132226; 
 }
+p.lead {
+    font-family: 'Montserrat', sans-serif;
+    /* font-weight: 800; */
+    color: #132226; 
+}   
 
 .fontawesome {
     font-size:25px;

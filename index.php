@@ -17,7 +17,8 @@ include 'nav.php';
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
     <link rel="stylesheet" href="css/custom/custom.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
 </head>
 
 
@@ -28,7 +29,7 @@ include 'nav.php';
                 <h1 class="display-4">D-Day Museum Arromanches</h1>
                 <p class="lead">Musee du Debarquement</p>
                 <hr class="my-2">
-                <p>Weclome to the website of the infamous musueum in Arromanches!</p>
+                <p>Welcome to the website of the infamous musueum in Arromanches!</p>
                 <p class="lead">
                 <a class="btn btn-secondary btn-lg" href="goodday.php" role="button">Weather checker</a>
                 </p>

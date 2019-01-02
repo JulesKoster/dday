@@ -53,11 +53,12 @@ include 'footer.php';
                     $json = file_get_contents($url);
                     
                     $weatherObject = json_decode($json);  
+                    $temp = (int)$weatherObject -> main -> temp;
 
                     
                     
                     // echo '<h1>' . $weatherObject -> name . '</h1>';
-                    echo '<h2>' . 'Current Temperature is: ' . $weatherObject -> main -> temp   . ' &#8451' . '</h2>';
+                    echo '<h2>' . 'Current Temperature is: ' . $temp . ' &#8451' . '</h2>';
                     echo '<h2>' . 'Weather condition: ' . $weatherObject -> weather[0] -> description . '</h2>';
                 ?>
                 

@@ -33,10 +33,11 @@ include 'nav.php';
          </p>
     </div>
 </div>
-
+<div class="row justify-content-center">
 <button type="button" class="btn btn-dark btn-lg" data-toggle="modal" data-target="#myModal" data-name="name">
   Email Us
 </button>
+</div>
 
 <!-- Modal -->
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
